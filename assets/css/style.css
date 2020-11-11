@@ -1,1 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;700&family=Roboto:wght@300;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#inicio .jumbotron {
+    font-family: 'Nunito', sans-serif;
+    background-image: url(../img/IMG_20170723_180202637.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+#inicio hr {
+    height: 0.2rem;
+    background-color: gray;
+
+}
