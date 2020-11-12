@@ -20,5 +20,18 @@ body {
 #inicio hr {
     height: 0.2rem;
     background-color: gray;
+}
 
+#sobre-mi .content-header {
+    font-size: 1.56rem;
+    letter-spacing: 0.1rem;
+}
+
+#sobre-mi hr {
+    background-color: black;
+    height: 0.1rem;
+}
+
+#experiencia .exp-text {
+    font-size: 1.5rem;
 }
