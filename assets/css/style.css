@@ -4,6 +4,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 #inicio .jumbotron {
     font-family: 'Nunito', sans-serif;
     background-image: url(../img/IMG_20170723_180202637.jpg);
@@ -27,9 +31,9 @@ body {
     letter-spacing: 0.1rem;
 }
 
-#sobre-mi hr {
+#sobre-mi #experiencia hr {
     background-color: black;
-    height: 0.1rem;
+    height: 0.5rem;
 }
 
 #experiencia .exp-text {
