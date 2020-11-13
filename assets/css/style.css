@@ -31,8 +31,22 @@ html {
     letter-spacing: 0.1rem;
 }
 
+#sobre-mi p {
+    line-height: 2.5rem;
+}
+
 #sobre-mi hr {
     background-color: black;
+    height: 0.2rem;
+}
+
+#experiencia hr {
+    background-color: black;
+    height: 0.2rem;
+}
+
+#projects hr {
+    background-color: white;
     height: 0.2rem;
 }
 
@@ -45,16 +59,26 @@ html {
     height: 0.2rem;
 }
 
+#contacto hr {
+    background-color: black;
+    height: 0.2rem;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: x-large;
+}
+
 #contacto {
-    height: 50vh;
+    height: 70vh;
 }
 
 #contacto div {
-    padding-top: 10vh
+    padding-top: 5vh
 }
 
 footer {
-    height: 20vh;
+    height: 17vh;
 }
 
 footer .icons {
@@ -64,13 +88,4 @@ footer .icons {
 .icons a {
     text-decoration: none;
     color: #FFFFFF
-}
-
-.bmdpki {
-    height: 70vh !important;
-    width: 70vw !important;
-}
-
-.jRMtza {
-    text-align: center !important;
 }
